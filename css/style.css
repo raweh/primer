@@ -1,0 +1,184 @@
+html {
+  box-sizing: border-box;
+}
+
+
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 3;
+  font-family: "Karma", sans-serif;
+  /* Keine Mindestschriftgröße! Dies wird dem Browser, bzw. dem Nutzer überlassen! */
+  
+  background: url("../img/cool.png")  ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.logo {
+
+background:transparent url("../img/logo3.png")   no-repeat ;
+height: 100px; 
+  width: 100px;
+  background-size: contain;
+  border: 1px solid transparent;
+}
+
+.above  {
+  
+  margin: 0 auto;
+  }
+
+.above ul{
+
+  text-align: center;
+  margin: 0em 0 0 0;
+  padding: 0.5em 500px 0 500px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  list-style-type: none;
+  border: 1px solid;
+  border-radius: 0.2em;
+  height: 3em;
+  
+  justify-content:space-between;
+}
+.above li{
+  display: inline;
+
+}
+.above a{
+  margin: 0 30px;
+}
+
+
+
+
+
+.leftside ul{
+
+  text-align: left;
+  margin: 0.5em 50px 0 0;
+  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  
+  list-style-type: none;
+  border: 1px solid;
+  border-radius: 0.2em;
+  width:  20em;
+  height: 700px;
+  padding: 5px 0 18px 10px;
+  justify-content:space-between;
+}
+
+.leftside a{
+  margin: 0 0 8px 1px;
+}
+
+
+.teaser1 ,.teaser2,.teaser3{
+  width: 1200px;
+  display: flex;
+  flex-flow: column ;
+  /*background-color: red; zum lernen*/
+  color: #333;
+  border-bottom: 2px solid #8db243;
+  align-items: flex-end;
+}
+
+.main{
+
+  display: flex;
+  margin: 0 auto;
+  padding: 1em 0;
+  
+}
+
+.teaser1  img{
+  width: 20%;
+  height: 20%;
+  margin: 0 2em 0 0;
+}
+.teaser1 p{
+text-align: justify;
+ -moz-text-align-last: justify; /* For Firefox prior 58.0 */
+  text-align-last: justify;
+}
+.teaser1 > *{
+  display: flex;
+  /*background-color: red; zum lernen*/
+  flex-flow: row nowrap;
+
+}
+
+.teaser2  img{
+  width: 20%;
+  height: 20%;
+  margin: 0  0 0  2em;
+}
+.teaser2 p{
+  text-align: justify;
+ -moz-text-align-last: justify; /* For Firefox prior 58.0 */
+  text-align-last: justify;
+}
+.teaser2 > *{
+  display: flex;
+  /*background-color: red; zum lernen*/
+  flex-flow: row-reverse nowrap;
+
+}
+
+.teaser3  img{
+  width: 20%;
+  height: 20%;
+  margin: 0 2em 0 0;
+}
+.teaser3 p{
+text-align: justify;
+ -moz-text-align-last: justify; /* For Firefox prior 58.0 */
+  text-align-last: justify;
+}
+.teaser3 > *{
+  display: flex;
+  /*background-color: red; zum lernen*/
+  flex-flow: row nowrap;
+
+}
+
+
+
+footer  {
+  
+  margin: 0 auto;
+  }
+
+footer ul{
+
+  text-align: center;
+  margin: 0em 0 0 0;
+  padding: 0.5em 500px 0 500px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  list-style-type: none;
+  border: 1px solid;
+  border-radius: 0.2em;
+  height: 3em;
+  
+  justify-content:space-between;
+}
+footer li{
+  display: inline;
+
+}
+footer a{
+  margin: 0 30px;
+}
